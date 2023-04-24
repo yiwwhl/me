@@ -1,0 +1,17 @@
+.profileWrapper {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+  .avatar {
+    width: 10rem; 
+    height: 10rem;
+    border-radius: 50%;
+  }
+
+  .nickName {
+    font-size: $font-size-32;
+    font-weight: bold;
+  }
+}

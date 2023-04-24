@@ -1,5 +1,5 @@
 {
-  "name": "@bookshop/typings",
+  "name": "@me/typings",
   "version": "1.0.0",
   "description": "typings",
   "scripts": {
@@ -9,6 +9,6 @@
   "module": "index.ts",
   "license": "ISC",
   "dependencies": {
-    "@bookshop/tools": "workspace:^"
+    "@me/tools": "workspace:^"
   }
 }

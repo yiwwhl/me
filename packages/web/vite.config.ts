@@ -27,6 +27,13 @@ export default defineConfig((configEnv) => {
         "@": path.resolve(__dirname, "src"),
       },
     },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: "@import '@/assets/styles/variables.scss';\n",
+        },
+      },
+    },
     ...modeConfigMap[mode],
   };
 });

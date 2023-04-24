@@ -1,5 +1,5 @@
 import { merge } from "lodash";
-import { getLocalItem, setLocalItem } from "@bookshop/tools";
+import { getLocalItem, setLocalItem } from "@me/tools";
 import { GlobModuleType, ImageStore } from "./type";
 
 let IMAGE_STORE_NAME = "asstes_images";
