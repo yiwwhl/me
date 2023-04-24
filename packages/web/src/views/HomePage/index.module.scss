@@ -1,17 +1,34 @@
-.profileWrapper {
-  width: 20rem;
+.homePageWrapper {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  
-  .avatar {
-    width: 10rem; 
-    height: 10rem;
-    border-radius: 50%;
-  }
+  height: 100vh;
+  overflow-y: overlay;
 
-  .nickName {
-    font-size: $font-size-32;
-    font-weight: bold;
+  .profileWrapper {
+    position: sticky;
+    top: 0;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    .avatar {
+      width: 10rem; 
+      height: 10rem;
+      border-radius: 50%;
+    }
+  
+    .nickName {
+      font-size: $font-size-32;
+      font-weight: bold;
+    }
   }
+  
+  .contentWrapper {
+    // for test only
+    flex: 1;
+    height: 2000px;
+    box-shadow: 0 0 10px #00000020;
+    border-radius: 8px;
+  }
+  
 }

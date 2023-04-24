@@ -7,11 +7,12 @@ export default defineComponent({
   setup() {
     return () => {
       return (
-        <SpaceArround>
+        <SpaceArround class={styles.homePageWrapper}>
           <div class={styles.profileWrapper}>
             <img class={styles.avatar} src={getImage("pokemon")} alt="" />
             <div class={styles.nickName}>yiwwhl</div>
           </div>
+          <div class={styles.contentWrapper}></div>
         </SpaceArround>
       );
     };
