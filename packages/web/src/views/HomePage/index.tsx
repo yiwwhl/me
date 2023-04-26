@@ -2,6 +2,7 @@ import { getImage } from "@/plugins/ImageAutoLoader/ImageCollector";
 import { defineComponent } from "vue";
 import styles from "./index.module.scss";
 import SpaceArround from "@/components/SpaceArround";
+import Card from "@/components/Card";
 
 export default defineComponent({
   setup() {
@@ -13,7 +14,10 @@ export default defineComponent({
             <div class={styles.nickName}>yiwwhl</div>
           </div>
           <div class={styles.footer}>© {new Date().getFullYear()}</div>
-          <div class={styles.contentWrapper}></div>
+          <div class={styles.contentWrapper}>
+            <Card>Github</Card>
+            <Card>Twitter</Card>
+          </div>
         </SpaceArround>
       );
     };

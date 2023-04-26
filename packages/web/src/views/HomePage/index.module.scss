@@ -24,11 +24,10 @@
   }
   
   .contentWrapper {
-    // for test only
     flex: 1;
     height: 2000px;
-    box-shadow: 0 0 10px #00000020;
-    border-radius: 8px;
+    display: flex;
+    gap: 24px;
   }
   
   .footer {
