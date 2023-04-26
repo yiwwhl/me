@@ -12,6 +12,7 @@ export default defineComponent({
             <img class={styles.avatar} src={getImage("pokemon")} alt="" />
             <div class={styles.nickName}>yiwwhl</div>
           </div>
+          <div class={styles.footer}>© {new Date().getFullYear()}</div>
           <div class={styles.contentWrapper}></div>
         </SpaceArround>
       );
