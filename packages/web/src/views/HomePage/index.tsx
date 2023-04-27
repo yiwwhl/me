@@ -13,7 +13,11 @@ export default defineComponent({
             <img class={styles.avatar} src={getImage("pokemon")} alt="" />
             <div class={styles.nickName}>yiwwhl</div>
           </div>
-          <div class={styles.footer}>© {new Date().getFullYear()}</div>
+          <div class={styles.footer}>
+            <div>MeyBe Social Links...</div>
+            <div>MeyBe Frend Links...</div>
+            <div>© {new Date().getFullYear()}</div>
+          </div>
           <div class={styles.contentWrapper}>
             <Card>Github</Card>
             <Card>Twitter</Card>

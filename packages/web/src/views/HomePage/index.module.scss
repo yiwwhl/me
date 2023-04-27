@@ -31,6 +31,9 @@
   }
   
   .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
     position: fixed;
     font-weight: bold;
     left: 64px;
