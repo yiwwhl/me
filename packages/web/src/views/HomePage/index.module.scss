@@ -27,7 +27,13 @@
     flex: 1;
     height: 2000px;
     display: flex;
+    flex-direction: column;
     gap: 24px;
+
+    .awesomeSoftWares {
+      display: flex;
+      gap: 24px;
+    }
   }
   
   .footer {

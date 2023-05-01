@@ -3,6 +3,7 @@ import { defineComponent } from "vue";
 import styles from "./index.module.scss";
 import SpaceArround from "@/components/SpaceArround";
 import Card from "@/components/Card";
+import Content from "@/components/Content";
 
 export default defineComponent({
   setup() {
@@ -19,8 +20,11 @@ export default defineComponent({
             <div>© {new Date().getFullYear()}</div>
           </div>
           <div class={styles.contentWrapper}>
-            <Card>Github</Card>
-            <Card>Twitter</Card>
+            <Content>
+              <Card>Github</Card>
+              <Card>Twitter</Card>
+            </Content>
+            <Content>Awesome Softwares...</Content>
           </div>
         </SpaceArround>
       );
