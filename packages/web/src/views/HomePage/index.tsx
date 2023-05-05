@@ -25,6 +25,7 @@ export default defineComponent({
               <Card>Twitter</Card>
             </Content>
             <Content>Awesome Softwares...</Content>
+            <Content>Awesome Games...</Content>
           </div>
         </SpaceArround>
       );
