@@ -15,11 +15,10 @@ export default defineComponent({
             <div class={styles.nickName}>yiwwhl</div>
           </div>
           <div class={styles.footer}>
-            <div>MeyBe Social Links...</div>
             <div>MeyBe Frend Links...</div>
             <div>© {new Date().getFullYear()}</div>
           </div>
-          <div class={styles.contentWrapper}>
+          <div class={styles.mainPage}>
             <Content>
               <Card>Github</Card>
               <Card>Twitter</Card>

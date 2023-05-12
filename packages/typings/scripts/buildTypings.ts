@@ -1,5 +1,5 @@
 // happy path
-import { createYwCollector } from "@bookshop/tools";
+import { createYwCollector } from "@me/tools";
 import path from "path";
 
 export enum FileType {
@@ -22,7 +22,7 @@ const fileTypeToAbsPathMap: FileTypeToAbsPath = {
   [FileType.DTS]: [],
 };
 
-collector.fileAbsPathLake.forEach((absPath) => {
+collector.fileAbsPathLake.forEach((absPath: string) => {
   if (collector.ifFileTypeIsTheGivinType(absPath, FileType.DTS)) {
     fileTypeToAbsPathMap[FileType.DTS].push(absPath);
   } else {
