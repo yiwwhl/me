@@ -20,8 +20,24 @@ export default defineComponent({
           </div>
           <div class={styles.mainPage}>
             <Content>
-              <Card>Github</Card>
-              <Card>Twitter</Card>
+              <Card
+                config={{
+                  click() {
+                    window.open("https://www.github.com/yiwwhl");
+                  },
+                }}
+              >
+                Github
+              </Card>
+              <Card
+                config={{
+                  click() {
+                    window.open("https://twitter.com/yiwwhl");
+                  },
+                }}
+              >
+                Twitter
+              </Card>
             </Content>
             <Content>Awesome Softwares...</Content>
             <Content>Awesome Games...</Content>
