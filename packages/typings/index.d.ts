@@ -18,6 +18,9 @@ declare type AnyTimeType = `${string}:${string}:${string}`;
 
 // match any class instance
 declare type AnyClass<T> = new () => T;
+
+// match any size
+declare type AnySize = "small" | "mediumn" | "large";
 declare interface ImportMetaEnv {
   VITE_PROJECT_START_TIME: string;
 }
