@@ -5,7 +5,7 @@ export default defineComponent({
   props: {
     size: {
       type: Number,
-      default: 64,
+      default: 20,
     },
   },
   setup(props, { slots }) {

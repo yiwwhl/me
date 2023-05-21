@@ -1,3 +1,4 @@
+import { Size } from "@/services/Size";
 import { CSSProperties, PropType, defineComponent } from "vue";
 
 export default defineComponent({
@@ -14,8 +15,8 @@ export default defineComponent({
   setup(props) {
     const imgStyleMap: Partial<Record<AnySize, CSSProperties>> = {
       small: {
-        width: "200px",
-        height: "200px",
+        width: Size.small,
+        height: Size.small,
       },
     };
 
