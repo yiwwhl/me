@@ -2,7 +2,7 @@ import Image from "@/components/Image";
 import SpaceArround from "@/components/SpaceArround";
 import { getImage } from "@/plugins/ImageAutoLoader/ImageCollector";
 import { defineComponent } from "vue";
-import styles from './index.module.scss'
+import styles from "./index.module.scss";
 
 export default defineComponent({
   setup() {

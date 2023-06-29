@@ -1,3 +1,14 @@
 .avatar {
-  border-radius: 50%
+  border-radius: 50%;
+  animation: gradient 5s infinite alternate;
+  box-shadow: 2px 2px 10px red;
+}
+
+@keyframes gradient {
+  0% {
+      filter: hue-rotate(0);
+  }
+  100% {
+      filter: hue-rotate(360deg);
+  }
 }
